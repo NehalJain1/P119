@@ -1,0 +1,40 @@
+body{
+    background-color: #54f0cb;
+}
+#Timer{
+    float: right;
+    margin-right: 50px;
+    font-size: 30px;
+}
+#Score{
+    margin-left: 30px;
+    font-size: 30px;
+}
+p{
+    font-size: large;
+}
+#Sketch2draw{
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+canvas {
+    border: 1px dashed black;
+    border-radius: 20px;
+    animation-name: canvasAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 200px; 
+}
+@keyframes canvasAnimation{
+ from{box-shadow: 4px 4px 20px grey;}
+ to{box-shadow: 4px 4px 20px black;}
+}
+
+#reset_canvas {
+    position: absolute;
+    bottom: 50px;
+    left: 670px;
+    background-color: greenyellow;
+}
